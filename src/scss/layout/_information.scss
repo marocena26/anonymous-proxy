@@ -1,0 +1,42 @@
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 37px 15px 45px 15px;
+}
+
+.small-text {
+    font-size: 14px;
+    font-family: $font-text;
+    color: $color-reasons;
+    line-height: 30px;
+}
+
+.subtitle-information {
+    font-size: 24px;
+    font-family: $font-titles;
+    line-height: 30px;
+}
+
+.text-information {
+    font-size: 18px;
+    font-family: $font-text;
+    line-height: 30px;
+    margin-bottom: 26px;
+}
+
+.button-go {
+    font-size: 20px;
+    font-family: $font-buttons;
+    line-height: 45px;
+    color: $color-details;
+    text-decoration: none;
+    border: solid 2px $color-details;
+    border-radius: 22.5px;
+    padding: 0 25px 0 26px;
+    max-width: 76px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/*Revisar el botón (tamaño)*/
