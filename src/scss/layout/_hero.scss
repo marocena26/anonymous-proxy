@@ -1,0 +1,27 @@
+.hero {
+    background-image: url(../images/background-hero.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.title {
+    font-size: 42px;
+    font-family: $font-titles;
+    color: $color-hero;
+    text-transform: uppercase;
+    line-height: 55px;
+    word-spacing:100vw;
+    align-items: center;
+    
+}
+
+.text {
+    font-size: 16px;
+    font-family: $font-text;
+    color: $color-hero;
+}
