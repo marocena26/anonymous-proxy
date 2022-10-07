@@ -7,6 +7,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    padding-bottom: 34.1px;
 }
 
 .title {
@@ -14,6 +15,7 @@
     font-family: $font-titles;
     color: $color-hero;
     text-transform: uppercase;
+    text-align: center;
     line-height: 55px;
     word-spacing:100vw;
     align-items: center;
@@ -24,4 +26,11 @@
     font-size: 16px;
     font-family: $font-text;
     color: $color-hero;
+    line-height: 19px;
+    margin-bottom: 35.2px;
+}
+
+.arrow-hero {
+    background-color: $color-hero;
+    color: $color-details;
 }
