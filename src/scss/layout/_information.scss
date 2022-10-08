@@ -35,11 +35,12 @@
     text-align: center;
     border: solid 2px $color-details;
     border-radius: 22.5px;
-    max-width: 76px;
-    
-
-    
-    
+    max-width: 76px;  
 }
 
+.button-go:hover {
+    background: $color-details;
+	color: $color-hero;
+    transform: scale(1.20);
+}
 /*Revisar el botón (tamaño)*/

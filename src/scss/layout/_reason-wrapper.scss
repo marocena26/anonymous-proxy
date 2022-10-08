@@ -26,3 +26,10 @@
     padding-left: 30.5px;
     
 }
+
+.reason-button:hover {
+    background: $color-hero;
+	color: $color-details;
+    border: solid 2px $color-details;
+    transform: scale(1.20);
+}

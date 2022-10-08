@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
     &-copy {
         color: $color-hero;
         font-size: 14px;
@@ -21,3 +21,11 @@
         }
     }
 }
+
+/*.footer-arrow{
+    background-color: $color-hero;
+    position: absolute;
+    align-items: flex-start;
+    transform: translateY(-50%);
+    
+}*/
