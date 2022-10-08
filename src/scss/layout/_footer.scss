@@ -1,0 +1,24 @@
+.footer {
+    background-color: $color-footer;
+    padding: 65px 15px 36px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    &-copy {
+        color: $color-hero;
+        font-size: 14px;
+        font-family: $font-text;
+        line-height: 30px;
+    }
+    &-components {
+        color: $color-hero;
+        font-size: 14px;
+        font-family: $font-text;
+        line-height: 30px;
+        &--love{
+            color: $color-details;
+        }
+    }
+}
