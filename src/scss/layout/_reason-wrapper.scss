@@ -1,30 +1,28 @@
 .reason-wrapper {
     background-color: $color-reasons;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     padding: 29px 15px 50px 15px;
     text-align: center;
-    margin-bottom: 49px;
-
-    
 }
 
-.subtitle-reason {
+.reason-subtitle {
     font-size: 24px;
     font-family: $font-titles;
     line-height: 30px;
+    padding-bottom: 49px;
 }
 
-.button-more-reasons {
+.reason-button {
+    display: inline-block;
     font-size: 20px;
     font-family: $font-buttons;
     line-height: 45px;
     color: $color-hero;
     background-color: $color-details;
     text-decoration: none;
-    border-radius: 22.5px;
     text-align: center;
+    border-radius: 22.5px;
     margin-top: 41px;
+    padding-right: 29.5px;
+    padding-left: 30.5px;
     
 }

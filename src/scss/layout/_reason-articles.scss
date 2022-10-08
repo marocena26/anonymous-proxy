@@ -1,11 +1,21 @@
-
-.reason-title {
-    font-size: 18px;
-    font-family: $font-titles;
-    line-height: 30px;
+.content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 44px;
 }
-.reason-text {
-    font-size: 18px;
-    font-family: $font-text;
-    line-height: 30px;
+
+.reason{
+    &-title {
+        font-size: 18px;
+        font-family: $font-titles;
+        line-height: 30px;
+    }
+    &-text {
+        font-size: 18px;
+        font-family: $font-text;
+        line-height: 30px;
+        display: inline-block;
+        text-align: center;
+    }
 }
