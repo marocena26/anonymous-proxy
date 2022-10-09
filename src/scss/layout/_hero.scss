@@ -8,28 +8,55 @@
     justify-content: flex-end;
     align-items: center;
     padding-bottom: 34.1px;
-}
 
-.title {
-    font-size: 42px;
-    font-family: $font-titles;
-    color: $color-hero;
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 55px;
-    word-spacing:100vw;
-    align-items: center;
-}
+    @media all and (min-width: 768px) {
+        padding-bottom: 45px;
+      }
+    @media all and (min-width: 1200px) {
+        padding-bottom: 26px;
+      } 
+    
+    &-title {
+        font-size: 42px;
+        font-family: $font-titles;
+        color: $color-hero;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 55px;
+        word-spacing:100vw;
+        align-items: center;
 
-.text {
-    font-size: 16px;
-    font-family: $font-text;
-    color: $color-hero;
-    line-height: 19px;
-    margin-bottom: 35.2px;
-}
+        @media all and (min-width: 768px) {
+            font-size: 80px;
+            line-height: 106px;
+          }
+        @media all and (min-width: 1200px) {
+            font-size: 100px;
+            line-height: 132px;
+          } 
+    }
 
-.arrow-hero {
+    &-text {
+        font-size: 16px;
+        font-family: $font-text;
+        color: $color-hero;
+        line-height: 19px;
+        margin-bottom: 35.2px;
+
+        @media all and (min-width: 768px) {
+            font-size: 24px;
+            line-height: 28px;
+          }
+        @media all and (min-width: 1200px) {
+            font-size: 24px;
+            line-height: 28px;
+          } 
+    }
+}
+.hero-arrow--img {
     background-color: $color-hero;
-    color: $color-details;
+    padding: 14.8px 10.1px 12.6px 11px;
+    border-radius: 50%;
 }
+
+

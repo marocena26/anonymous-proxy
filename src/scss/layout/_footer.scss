@@ -22,10 +22,8 @@
     }
 }
 
-/*.footer-arrow{
+.footer-arrow-img{
     background-color: $color-hero;
-    position: absolute;
-    align-items: flex-start;
-    transform: translateY(-50%);
-    
-}*/
+    padding: 11px 12.4px 10px 12px;
+    border-radius: 50%;
+}
