@@ -1,6 +1,6 @@
 .footer {
     background-color: $color-footer;
-    padding: 65px 15px 36px 15px;
+    padding: 17px 15px 36px 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,6 +24,7 @@
 
 .footer-arrow-img{
     background-color: $color-hero;
-    padding: 11px 12.4px 10px 12px;
+    padding: 11px 12px 10px 12px;
     border-radius: 50%;
+    transform: translateY(-87%);
 }

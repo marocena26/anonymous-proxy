@@ -3,44 +3,84 @@
     flex-direction: column;
     justify-content: flex-start;
     padding: 61.9px 15px 45px 15px;
-}
+    
+    @media all and (min-width: 768px) {
+        padding: 37px 39px 60px 39px;
+      }
+    @media all and (min-width: 1200px) {
+        padding: 65px 275px 60px 275px;
+      } 
 
-.small-text {
-    font-size: 14px;
-    font-family: $font-text;
-    color: $color-reasons;
-    line-height: 30px;
-}
+    &-small--text {
+        font-size: 14px;
+        font-family: $font-text;
+        color: $color-reasons;
+        line-height: 30px;
 
-.subtitle-information {
-    font-size: 24px;
-    font-family: $font-titles;
-    line-height: 30px;
-    margin-bottom: 20px;
-}
+        @media all and (min-width: 1200px) {
+            font-size: 16px;
+            line-height: 30px;
+          } 
+    }
 
-.text-information {
-    font-size: 18px;
-    font-family: $font-text;
-    line-height: 30px;
-    margin-bottom: 26px;
-}
+    &-subtitle {
+        font-size: 24px;
+        font-family: $font-titles;
+        line-height: 30px;
+        margin-bottom: 20px;
 
-.button-go {
-    font-size: 20px;
-    font-family: $font-buttons;
-    line-height: 45px;
-    color: $color-details;
-    text-decoration: none;
-    text-align: center;
-    border: solid 2px $color-details;
-    border-radius: 22.5px;
-    max-width: 76px;  
-}
+        @media all and (min-width: 768px) {
+            font-size: 26px;
+            line-height: 45px;
+            margin-bottom: 27px;
+          }
+        @media all and (min-width: 1200px) {
+            font-size: 32px;
+            line-height: 45px;
+            margin-bottom: 32px;
+          } 
+    
+    }
 
-.button-go:hover {
-    background: $color-details;
-	color: $color-hero;
-    transform: scale(1.20);
+    &-text {
+        font-size: 18px;
+        font-family: $font-text;
+        line-height: 30px;
+        margin-bottom: 26px;
+
+        @media all and (min-width: 768px) {
+            font-size: 20px;
+            margin-bottom: 27px;
+          }
+        @media all and (min-width: 1200px) {
+            font-size: 20px;
+            margin-bottom: 27px;
+          } 
+    }   
+
+    &-button--go {
+        font-size: 20px;
+        font-family: $font-buttons;
+        line-height: 45px;
+        color: $color-details;
+        text-decoration: none;
+        text-align: center;
+        border: solid 2px $color-details;
+        border-radius: 22.5px;
+        max-width: 76px;  
+
+        @media all and (min-width: 768px) {
+            max-width: 91px;  
+          }
+        @media all and (min-width: 1200px) {
+            max-width: 160px;  
+          } 
+    }
+
+    &-button--go:hover {
+        background: $color-details;
+        color: $color-hero;
+        transform: scale(1.20);
+    }
+
 }
-/*Revisar el botón (tamaño)*/

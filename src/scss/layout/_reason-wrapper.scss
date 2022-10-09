@@ -2,34 +2,60 @@
     background-color: $color-reasons;
     padding: 29px 15px 50px 15px;
     text-align: center;
-}
 
-.reason-subtitle {
-    font-size: 24px;
-    font-family: $font-titles;
-    line-height: 30px;
-    padding-bottom: 49px;
-}
+    @media all and (min-width: 768px) {
+        padding-top: 36px;
+        padding-bottom: 60px;
+      }
 
-.reason-button {
-    display: inline-block;
-    font-size: 20px;
-    font-family: $font-buttons;
-    line-height: 45px;
-    color: $color-hero;
-    background-color: $color-details;
-    text-decoration: none;
-    text-align: center;
-    border-radius: 22.5px;
-    margin-top: 41px;
-    padding-right: 29.5px;
-    padding-left: 30.5px;
+    @media all and (min-width: 1200px) {
+        padding-top: 61px;
+        padding-bottom: 60px;
+      } 
+
+
+    &--subtitle {
+        font-size: 24px;
+        font-family: $font-titles;
+        line-height: 30px;
+        padding-bottom: 49px;
+
+        @media all and (min-width: 768px) {
+            font-size: 26px;
+            line-height: 45px;
+            padding-bottom: 38px;
+          }
     
-}
+        @media all and (min-width: 1200px) {
+            font-size: 32px;
+            font-family: $font-titles;
+            line-height: 45px;
+            padding-bottom: 43px;
+          } 
+    
+    }
 
-.reason-button:hover {
-    background: $color-hero;
-	color: $color-details;
-    border: solid 2px $color-details;
-    transform: scale(1.20);
+    &--button {
+        display: inline-block;
+        font-size: 20px;
+        font-family: $font-buttons;
+        line-height: 45px;
+        color: $color-hero;
+        background-color: $color-details;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 22.5px;
+        margin-top: 41px;
+        padding-right: 29.5px;
+        padding-left: 30.5px;
+    
+    }
+
+    &--button:hover {
+        background: $color-hero;
+        color: $color-details;
+        border: solid 2px $color-details;
+        transform: scale(1.20);
+    }
+
 }

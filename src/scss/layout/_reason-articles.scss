@@ -2,7 +2,16 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 44px;
+    gap: 27.7px;
+
+    @media all and (min-width: 768px) {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr ;
+      }
+    @media all and (min-width: 1200px) {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+      } 
 }
 
 .reason{
@@ -10,7 +19,15 @@
         font-size: 18px;
         font-family: $font-titles;
         line-height: 30px;
+
+        @media all and (min-width: 768px) {
+            font-size: 24px;
+          }
+        @media all and (min-width: 1200px) {
+            font-size: 24px;
+          } 
     }
+
     &-text {
         font-size: 18px;
         font-family: $font-text;
@@ -18,5 +35,12 @@
         max-width: 180px;
         display: inline-block;
         text-align: center;
+
+        @media all and (min-width: 768px) {
+            font-size: 20px;
+          }
+        @media all and (min-width: 1200px) {
+            font-size: 20px;
+          } 
     }
 }
