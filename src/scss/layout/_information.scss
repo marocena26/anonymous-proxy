@@ -70,6 +70,7 @@
         border: solid 2px $color-details;
         border-radius: 22.5px;
         max-width: 76px;  
+        transition: background-color 2s, transform 2s;
 
         @media all and (min-width: 768px) {
             max-width: 91px;  
@@ -80,7 +81,7 @@
     }
 
     &-button--go:hover {
-        background: $color-details;
+        background-color: $color-details;
         color: $color-hero;
         transform: scale(1.20);
     }

@@ -49,11 +49,12 @@
         margin-top: 41px;
         padding-right: 29.5px;
         padding-left: 30.5px;
+        transition: background-color 2s, border 2s, transform 2s;
     
     }
 
     &--button:hover {
-        background: $color-hero;
+        background-color: $color-hero;
         color: $color-details;
         border: solid 2px $color-details;
         transform: scale(1.20);
