@@ -93,6 +93,6 @@ En total, hay varias **interacciones** que resolver:
 
 ## Feedback
 
-Cualquier aportación sera bien recibida. 
+Cualquier aportación será bien recibida. 
 
 ¡Muchas gracias! 
