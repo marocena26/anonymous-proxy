@@ -1,31 +1,24 @@
-![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
+# Módulo 1: Ejercicio de evaluación final - Adalab
 
-# Adalab web starter kit
+En este repositorio podreis encontrar los ficheros generados en la realización de la **Evaluación final del Módulo 1 - Promo Radia**. 
 
-Ahoy! Este es nuestro Starter Kit creado en **node y gulp**. ¿Y qué es un Starter kit? Pues es una **plantilla de proyecto con funcionalidades preinstaladas y preconfiguradas**.
+> **NOTA:** Enlace directo al poyecto pulsando **[aqui](http://beta.adalab.es/modulo-1-evaluacion-final-marocena26/)**
+ 
 
-Este Kit incluye un motor de plantillas HTML, el preprocesador SASS y un servidor local y muchas cosas más. El Kit nos ayuda a trabajar más cómodamente, nos automatiza tareas.
+## Materiales utilizados: 
 
-En el Kit hay 3 tipos de ficheros y carpetas:
+Para llevar a cabo el desarrollo de este ejercicio se han empleado los siguientes materiales:
+- Creación de un repositorio desde **GitHub Classroom.**
+- Una **plantilla de proyecto con funcionalidades preinstaladas y preconfiguradas: el [Adalab - Web starter kit](https://github.com/Adalab/Adalab-web-starter-kit)**.
+- Diseños en zeplin facilitados por [Adalab](https://adalab.es/).
+- Imágenes e iconos en formato zip facilitados por [Adalab](https://adalab.es/).
 
-- Los ficheros que están sueltos en la raíz del repositorio, como gulpfile.js, package.json... Son la configuración del proyecto y no necesitamos modificarlos.
-- La carpeta `src/`: son los ficheros de nuestra página web, como HTML, CSS, JS...
-- Las carpetas `public/` y `docs/`, que son generadas automáticamente cuando arrancamos el proyecto. El Kit lee los ficheros que hay dentro de `src/`, los procesa y los genera dentro de `public/` y `docs/`.
+### Pasos que se han seguido para arrancar el proyecto:
 
-## Guía de inicio rápido
-
-> **NOTA:** Necesitas tener instalado [Node JS](https://nodejs.org/) para trabajar con este Starter Kit:
-
-### Pasos a seguir cada vez que queremos arrancar un proyecto desde cero:
-
-1. **Crea tu propio repositorio.**
-1. Descarga este **Starter kit desde GitHub**.
-   - No recomendamos que clones este repo ya que no podrás añadir commits.
-1. **Copia todos los ficheros** de este Starter kit en la carpeta raíz de tu repositorio.
-   - Recuerda que debes copiar **también los ficheros ocultos**.
-   - Si has decidido clonar este repo, no debes copiar la carpeta `.git`. Si lo haces estarás machacando tu propio repositorio.
-1. **Abre una terminal** en la carpeta raíz de tu repositorio.
-1. **Instala las dependencias** locales ejecutando en la terminal el comando:
+1. **Creación del repositorio desde GitHub Classroom.**
+2. . Descarga del **[Adalab - Web starter kit](https://github.com/Adalab/Adalab-web-starter-kit)**.
+3. **Copia de todos los ficheros** del Starter kit en la carpeta raíz del repositorio.
+4. Desde la carpeta raíz de tu repositorio **instalamos las dependencias** locales ejecutando en la terminal el comando:
 
 ```bash
 npm install
@@ -33,7 +26,7 @@ npm install
 
 ### Pasos para arrancar el proyecto:
 
-Una vez hemos instalado las dependencias, vamos a arrancar el proyecto. **El proyecto hay que arrancarlo cada vez que te pongas a programar.** Para ello ejecuta el comando:
+**El proyecto hay que arrancarlo cada vez que nos pongamoss a programar**, para ello ejecutaremos el comando:
 
 ```bash
 npm start
@@ -47,78 +40,59 @@ Este comando:
    - Convierte los ficheros SASS en CSS.
    - Combina los diferentes ficheros de HTML y los agrupa en uno o varios ficheros HTML.
 
-Después de ejecutar `npm start` ya puedes empezar a editar todos los ficheros que están dentro de la carpeta `src/` y programar cómodamente.
+Después de ejecutar `npm start` ya podemos empezar a editar todos los ficheros que están dentro de la carpeta `src/` y programar cómodamente.
 
-### Pasos para publicar el proyecto en GitHub Pages:
+## Finalidad del proyecto:
 
-Para generar tu página para producción ejecuta el comando:
+El ejercicio consiste en desarrollar una página web de acuerdo a un diseño dado. Para hacerlo de forma correcta hay que resolver varios
+puntos:
 
-```bash
-npm run docs
-```
+- Usar Sass.
+- Usar flexbox y CSS Grid.
+- Usar media queries.
+- Resolver algunas interacciones usando transiciones.
+- Uso de control de versiones con ramas para manejar un proyecto de código.
 
-Y a continuación:
+## Aspectos a seguir de la maquetación:
 
-1. Sube a tu repo la carpeta `docs/` que se te acaba de generar.
-1. Entra en la pestaña `settings` de tu repo.
-1. Y en el apartado de GitHub Pages activa la opción **master branch /docs folder**.
-1. Y ya estaría!!!
+Atendiendo a las instrucciones descritar en el enunciado del  ejercicio, el proyecto debe cumplir las siguiente normas de **maquetación**: 
 
-Además, los comandos:
+- **El botón de hamburguesa debe:**
+    - permanecer fijo en la esquina superior izquierda.
+    - no debe desaparecer al hacer scroll. 
+    - debe redirigir a la web de [Adalab](https://adalab.es/).
+    - no desplega ningún submenú.
+    
+- **Anonymous proxy:**
+   - se utilizará **flexbox**
+   - debe ocupar el alto de la ventana del navegador.
+   
+- **Looking Through A Window:**
+   - se utilizará **flexbox** o **CSS grid**.
+   
+- **3 Reasons To Purchase:**
+   - los 3 elementos del listado deben estar maquetados con **CSS grid** en todos los tamaños de pantalla.
 
-```bash
-npm run push-docs
-```
-o
+- **Footer:** 
+   - se utilizará **flexbox**. 
+   - todo los textos de las columnas deben ser enlaces a la página de [Adalab](https://adalab.es/).
 
-```bash
-npm run deploy
-```
+## Interacciones a resolver:
 
-son un atajo que nos genera la versión de producción y hace push de la carpeta `docs/` del tirón. Te recomendamos ver el fichero `package.json` para aprender cómo funciona.
+En total, hay varias **interacciones** que resolver:
 
-## Flujo de archivos con Gulp
+- El botón de flecha del módulo hero debe enlazar a la sección "3 Reasons To Purchase".
+- El botón de flecha del footer debe enlazar al inicio de la página.
+- Todos los links del pie deben ir a [Adalab](https://adalab.es/).
+- En el de los botones ("Go" y "3 Reasons To Purchase") se debe incluir una transform que dejamos a vuestra elección (
+- BONUS: 
+   - hacer una pequeña animación en el botón del footer.
+   - hacer la transform con transition.
 
-Estas tareas de Gulp producen el siguiente flujo de archivos:
 
-![Gulp flow](./gulp-flow.png)
 
-## `gulpfile.js` y `config.json`
+## Feedback
 
-Nuestro **gulpfile.js** usa el fichero `config.json` de configuración con las rutas de los archivos a generar / observar.
+Cualquier aportación sera bien recibida. 
 
-De esta manera separarmos las acciones que están en `gulpfile.js` de la configuración de las acciones que están en `config.json`.
-
-## Estructura de carpetas
-
-La estructura de carpetas tiene esta pinta:
-
-```
-src
- ├─ api // los ficheros de esta carpeta se copian en public/api/
- |  └─ data.json
- ├─ images
- |  └─ logo.jpg
- ├─ js // los ficheros de esta carpeta se concatenan en el fichero main.js y este se guarda en public/main.js
- |  ├─ main.js
- |  └─ events.js
- ├─ scss
- |  ├─ components
- |  ├─ core
- |  ├─ layout
- |  └─ pages
- └─ html
-    └─ partials
-```
-
-> **NOTA:** Los partials de HTML y SASS del proyecto son orientativos. Te recomendamos usar los que quieras, y borrar los que no uses.
-
-## Vídeotutoriales del Starter kit
-
-- [Qué es, trabajar con la versión de desarrollo y rutas relativas](https://www.youtube.com/watch?v=XwvhXvBijos)
-- [Migración de un proyecto, trabajar con la versión de producción y GitHub Pages](https://www.youtube.com/watch?v=qqGClcgt9Uc)
-- [Motor de plantillas](https://www.youtube.com/watch?v=4GwXOJ045Zg)
-
-## Falta algo?
-
-Echas de menos que el kit haga algo en concreto? Pidelo sin problema a través de las issues o si te animas a mejorarlo mándanos un PR :)
+¡Muchas gracias! 
