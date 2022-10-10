@@ -3,7 +3,6 @@
     padding-top: 29px ;
     padding-bottom: 50px ;
     text-align: center;
-    text-transform: capitalize;
 
     @media all and (min-width: 768px) {
         padding-top: 36px;
@@ -21,6 +20,7 @@
         font-family: $font-titles;
         line-height: 30px;
         padding-bottom: 49px;
+        text-transform: capitalize;
 
         @media all and (min-width: 768px) {
             font-size: 26px;
