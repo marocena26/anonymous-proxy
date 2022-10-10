@@ -2,7 +2,7 @@
 
 En este repositorio podreis encontrar los ficheros generados en la realización de la **Evaluación final del Módulo 1 - Promo Radia**. 
 
-> **NOTA:** Enlace directo al poyecto pulsando **[aqui](http://beta.adalab.es/modulo-1-evaluacion-final-marocena26/)**
+> **NOTA:** Enlace directo al poyecto pulsando **[aquí](http://beta.adalab.es/modulo-1-evaluacion-final-marocena26/)**
  
 
 ## Materiales utilizados: 
