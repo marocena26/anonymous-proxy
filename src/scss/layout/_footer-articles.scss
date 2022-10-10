@@ -1,6 +1,22 @@
 .nav-articles{
     margin-bottom: 30px;
     text-align: center;
+
+    @media all and (min-width: 768px) {
+        text-align: left;
+        margin-bottom: 40px;
+        width: 210px;
+    }
+
+    @media all and (min-width: 1200px) {
+        text-align: left;
+        margin-bottom: 40px;
+        margin-right: 31px;
+        margin-left: 31px;
+        width: 161px;
+
+    } 
+
     &--name{
         color: $color-hero;
         font-size: 16px;
@@ -14,6 +30,14 @@
 .nav-socialmedia {
     margin-bottom: 32px;
     text-align: center;
+
+    @media all and (min-width: 768px) {
+        text-align: left;
+    }
+
+    @media all and (min-width: 1200px) {
+        text-align: left;
+    } 
 
     &--red {
         color: $color-hero;

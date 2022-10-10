@@ -17,6 +17,7 @@
         font-family: $font-text;
         color: $color-reasons;
         line-height: 30px;
+        text-transform: capitalize;
 
         @media all and (min-width: 1200px) {
             font-size: 16px;
