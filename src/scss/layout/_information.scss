@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: flex-start;
     padding: 61.9px 15px 45px 15px;
-    text-transform: capitalize;
     
     @media all and (min-width: 768px) {
         padding: 37px 39px 60px 39px;
@@ -15,7 +14,7 @@
     &-small--text {
         font-size: 14px;
         font-family: $font-text;
-        color: $color-reasons;
+        color: $color-insomnia;
         line-height: 30px;
         text-transform: capitalize;
 
@@ -30,6 +29,7 @@
         font-family: $font-titles;
         line-height: 30px;
         margin-bottom: 20px;
+        
 
         @media all and (min-width: 768px) {
             font-size: 26px;

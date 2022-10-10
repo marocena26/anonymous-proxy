@@ -13,7 +13,7 @@
         padding-bottom: 45px;
       }
     @media all and (min-width: 1200px) {
-        padding-bottom: 26px;
+        padding-bottom: 13px;
       } 
     
     &-title {
@@ -46,6 +46,8 @@
         @media all and (min-width: 768px) {
             font-size: 24px;
             line-height: 28px;
+            width: 20ch;
+            text-align: center;
           }
         @media all and (min-width: 1200px) {
             font-size: 24px;
