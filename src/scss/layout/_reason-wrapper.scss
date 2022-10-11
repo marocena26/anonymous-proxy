@@ -51,6 +51,15 @@
         padding-right: 29.5px;
         padding-left: 30.5px;
         transition: background-color 2s, border 2s, transform 2s;
+
+        @media all and (min-width: 768px) {
+          padding-right: 42.5px;
+          padding-left: 43.5px; 
+        }
+        @media all and (min-width: 1200px) {
+          padding-right: 62px;
+          padding-left: 64px; 
+        } 
     
     }
 
