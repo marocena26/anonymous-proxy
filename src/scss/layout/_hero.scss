@@ -59,6 +59,13 @@
     background-color: $color-hero;
     padding: 14.8px 10.1px 12.6px 11px;
     border-radius: 50%;
+    display: none;
+
+    @media all and (min-width: 768px) {
+      display: block;
+    }
+ 
+
 }
 
 
