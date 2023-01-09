@@ -37,7 +37,7 @@ In total, there are several **interactions** to resolve:
    - make a small **animation** in the footer button.
    - make the **transform with transition**.
 
-## Tools
+## 🛠️ Tools
 The project has been developed with **'Adalab Starter Kit'**, a framework created in node and gulp that has pre-installed and pre-configured functionalities. It also contains an **HTML template engine**, a **Sass preprocessor** and a local server, among other elements.
 
 The following tools have been used when solving the project:
