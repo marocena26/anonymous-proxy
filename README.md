@@ -59,9 +59,17 @@ The following tools have been used when solving the project:
 
 > **NOTE:** This project has been carried out using **Adalab Starter Kit**.
 
-1. **Clone** this repository on your computer.
-2. Open it in your code editor.
-3. Open a terminal and **install the local dependencies** by executing in the command terminal. Here are the ones I used to start my project:
+**First** of all, in order to have the repository on your computer:
+
+1. Click on the top right corner > **Fork**.
+2. It will ask you to choose which GitHub user you want to fork it to. **Choose your user**.
+3. **Go to github.com/your-user/name-of-project**, **clone it** and do whatever you want, you can rename the repo, change the code, redeploy it to GitHub Pages...
+4. **Finally** and for everything to work properly, **you must disable GitHub Pages and re-enable** it so that GitHub generates the new URL correctly.
+
+Once you have **done the fork**:
+
+1. Open it in your code editor.
+2. Open a terminal and **install the local dependencies** by executing in the command terminal. Here are the ones I used to start my project:
 
 ```bash
 npm install
